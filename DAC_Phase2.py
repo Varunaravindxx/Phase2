@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Load the CSV file
-data = pd.read_csv('D:\Phase 1\Dataset.csv')
+data = pd.read_csv('Dataset.csv')
 
 # Convert the 'date' column to datetime
 data['Date'] = pd.to_datetime(data['Date'])
